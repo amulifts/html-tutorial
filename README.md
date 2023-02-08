@@ -6,7 +6,7 @@ In this tutorial, i'll start from the very beginning. You don't need to know any
 
  * [HTML](#html)
  	* [History](#history)
-	* Basics
+	* Basic
 		* [Basic HTML document syntax](#syntax)
 		* [Basic HTML document structure](#structure)
 		* [HTML Elements and Attributes](#elementsandattributes)
@@ -30,7 +30,7 @@ In this tutorial, i'll start from the very beginning. You don't need to know any
 
 ## HTML
 
-HTML stands for **HyperText Markup Language**. It is a **markup language** used to create and structure web pages. HTML is the **foundation** of all websites and provides the **structure** for displaying text, images, videos, and other types of content on the web. HTML can be written using a text editor and when you save the extension of the file must be `.html` and viewed in a web browser. When a web browser loads an HTML document, it displays the content and structure defined by the HTML code.
+HTML stands for **HyperText Markup Language**. It is a **markup language** used to create and structure web pages. HTML is the **foundation** of all websites and provides the **structure** for displaying text, images, videos, and other types of content on the web. HTML can be written using a text editor and when we save the extension of the file must be `.html` and viewed in a web browser. When a web browser loads an HTML document, it displays the content and structure defined by the HTML code.
 
 <a name="history"></a>
 
@@ -61,7 +61,7 @@ It's important to note that while these are the major releases, HTML is constant
 We will be using `HTML5` in this tutorial. HTML5 is the latest version of HTML and is the version that is currently being standardized by the **World Wide Web Consortium (W3C) : an international organization committed to improving the web.** It is the version that all modern browsers support.
 
 
-# BASICS
+# BASIC
 
 <a name="syntax"></a>
 
@@ -190,7 +190,7 @@ In the above example, the `src` attribute specifies the path to the image file a
 | `<fieldset>` | Groups related elements in a form | `disabled`, `form`, `name` |
 | `<legend>` | Defines a caption for a `<fieldset>` element | |
 
-In the above table, i have only listed the most **commonly used** HTML elements and attributes. There are many more HTML elements and attributes that you can learn about from the official HTML documentation.
+In the above table, i have only listed the most **commonly used** HTML elements and attributes. There are many more HTML elements and attributes that we can learn about from the official HTML documentation.
 
 The official website for HTML (HyperText Markup Language) is maintained by the World Wide Web Consortium (W3C), which is the main international standards organization for the Internet. The URL for the HTML specification is: [Click Here](https://www.w3.org/TR/html/)
 
@@ -276,7 +276,7 @@ Here is an example of how to use the `<a>` element to create a link to a locatio
 
 ```html
 <a href="#top">Go to Top</a>
-	and then add an id attribute to the element you want to link to:
+	and then add an id attribute to the element we want to link to:
 <h1 id="top">Top of Page</h1>
 ```
 
@@ -373,9 +373,9 @@ Here is an example of a table with attributes:
 
 ## Forms and Input Elements in HTML
 
-HTML forms allow you to collect information from users, which can then be sent to a server for processing. The most basic form is created using the <form> element, along with various input elements such as text fields, checkboxes, radio buttons, and more.
+HTML forms allow us to collect information from users, which can then be sent to a server for processing. The most basic form is created using the <form> element, along with various input elements such as text fields, checkboxes, radio buttons, and more.
 
-Here's a list of some common input elements you might use in a form:
+Here's a list of some common input elements we might use in a form:
 
 - `<input>` - Defines an input control
 - `<textarea>` - Defines a multiline input control (text area)
@@ -402,9 +402,9 @@ Here is an example of a form with input elements:
 </form>
 ```
 
-When a user submits the form, the data is sent to the server for processing. To specify where the form data should be sent, you can use the `action` attribute of the `<form>` element. To specify the HTTP method to use when sending the data, you can use the `method` attribute of the `<form>` element. The `method` attribute can be set to either `GET` or `POST`.
+When a user submits the form, the data is sent to the server for processing. To specify where the form data should be sent, we can use the `action` attribute of the `<form>` element. To specify the HTTP method to use when sending the data, we can use the `method` attribute of the `<form>` element. The `method` attribute can be set to either `GET` or `POST`.
 
-The `GET` method is the default method for sending form data, and is typically used for simple forms that don't contain sensitive information. With the `GET` method, form data is appended to the URL as query parameters. For example, if you have a form with two input fields named **name** and **email**, the form data would be sent to the server as follows:
+The `GET` method is the default method for sending form data, and is typically used for simple forms that don't contain sensitive information. With the `GET` method, form data is appended to the URL as query parameters. For example, if we have a form with two input fields named **name** and **email**, the form data would be sent to the server as follows:
 
 ```html
 https://amankhadka.com/submit?name=Aman+Khadka&email=amankhadka%40gmail.com
@@ -412,7 +412,7 @@ https://amankhadka.com/submit?name=Aman+Khadka&email=amankhadka%40gmail.com
 
 The `POST` method is more secure than the `GET` method, as form data is not visible in the URL. Instead, the data is sent in the body of the HTTP request, where it is less susceptible to being intercepted or tampered with. The `POST` method is typically used for forms that contain sensitive information, such as login forms and forms that require a payment.
 
-To specify the method used to send form data, you can use the **method** attribute on the **<form>** element, like this:
+To specify the method used to send form data, we can use the **method** attribute on the **<form>** element, like this:
 
 ```html
 <form action="submit" method="POST">
@@ -448,7 +448,7 @@ Here is a list of some common semantic elements in HTML5:
 - `<details>` - Defines additional details that the user can view or hide
 - `<summary>` - Defines a heading for the `<details>` element
 
-By using semantic elements, you can make your HTML code more readable and understandable. For example, if you have a navigation menu, you can use the `<nav>` element to wrap the menu, like this:
+By using semantic elements, you can make your HTML code more readable and understandable. For example, if we have a navigation menu, we can use the `<nav>` element to wrap the menu, like this:
 
 ```html
 <nav>
@@ -476,11 +476,28 @@ We don't generally use `HTML` for styling, as it is not very efficient. Instead,
 - Internal - by using a `<style>` element in the `<head>` section
 - External - by using a `<link>` element to link to an external CSS file
 
-We will learn more about `CSS` later in another tutorial.
+We will learn more about **CSS** later in another tutorial.
 
 <a name="layoutandresponsivedesign"></a>
 
 ## HTML Layout and Responsive Design
+
+HTML layout refers to the arrangement of elements on an HTML page and how they fit together to create a visual structure. With HTML, we can use various elements such as `<div>`, `<header>`, `<footer>`, `<nav>`, and `<section>` to define different areas of a page and control the layout of your content.
+
+Responsive design is a technique used to create web pages that look good on all devices, such as desktop computers, tablets, and mobile phones. Responsive web design is achieved by using a combination of flexible layouts, flexible images, and media queries.
+
+There are several different techniques for creating responsive web pages:
+
+- **Media queries**: A media query is a CSS technique that allows us to apply different styles to your HTML elements based on the size of the screen or device. You can use media queries to create different styles for different screen sizes and orientations.
+- **Flexbox and Grid**: Flexbox and Grid are CSS layout modules that allow us to create flexible and responsive layouts with ease. With these modules, we can control how elements are arranged on the page, how they adapt to different screen sizes, and how they respond to changes in the viewport.
+- **Responsive images**: With responsive images, we can ensure that images are optimized for different devices and screen sizes, by serving different versions of an image based on the size of the screen. This helps to reduce the amount of data that needs to be downloaded, which can improve the loading speed of your pages on mobile devices.
+
+Make our design responsive helps to create a better user experience for our users regardless of the device they are using to access our content.
+
+We will learn deeply about **HTML Layout** and **Responsive Design** in CSS tutorial.
+
+# Advance
+
 
 
 
