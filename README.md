@@ -220,7 +220,7 @@ Here is an example of how to use some of the above elements to format text:
 
 When the above HTML code is rendered in a browser, it will look like this:
 
-![Text Formatting in HTML]()
+![Text Formatting in HTML](https://github.com/amulifts/html-tutorial/blob/main/images/textformatting.png)
 
 
 
