@@ -14,7 +14,3 @@ In this tutorial, we'll start from the very beginning. You don't need to know an
 	* Putting it all together so far
 
 [HTML]: https://github.com/amulifts/html-tutorial/blob/main/HTML/one.html
-
-## Instructor
-
-<a href = "https://github.com/amulifts"><img src = "https://avatars.githubusercontent.com/u/49828737?v=4" width="144"></a>
