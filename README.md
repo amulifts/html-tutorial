@@ -2,7 +2,7 @@
 
 A comprehensive guide to HTML, covering topics from the basics of document structure and syntax to advanced topics like APIs, dynamic web content, and accessibility. Perfect for anyone looking to learn or improve their HTML skills.
 
-## Table of Contents
+# Table of Contents
 
  * [HTML](#html)
  	* [History](#history)
@@ -558,6 +558,6 @@ To summarize, HTML is the web's backbone and is required for creating dynamic an
 
 This study guide has covered everything from the fundamentals of HTML syntax and structure to intermediate topics like forms and input elements and advanced topics like APIs and dynamic web content, as well as accessibility. You'll be well on your way to creating websites that are accessible, maintainable, and visually appealing if you understand these concepts and best practices. HTML is an important skill to have in your toolbox, whether you're a beginner or an experienced developer, and we hope this study guide has given you the foundation you need to get started.
 
-## Authors
+# Authors
 
 - [@amulifts](https://www.github.com/amulifts)
