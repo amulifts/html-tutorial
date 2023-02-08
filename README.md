@@ -24,6 +24,7 @@ In this tutorial, i'll start from the very beginning. You don't need to know any
 		* [HTML APIs and Dynamic Web Content](#apisanddynamicwebcontent)
 		* [Accessibility and Assistive Technologies in HTML](#accessibility)
 		* [Best Practices and Maintenance of HTML Documents](#bestpractices)
+ * [Conclusion](#conclusion)
 
 <a name="html"></a>
 
@@ -548,6 +549,8 @@ By following best practices and maintaining our HTML documents, we can ensure th
 - **Use a clear naming convention**: Adopt a clear and consistent naming convention for HTML files, images, and other resources.
 - **Keep HTML code organized and well-commented**: Keep the HTML code organized and well-commented for improved maintainability.
 - **Use a code formatter**: Use a code formatter to format the HTML code for improved readability.
+
+<a name = "conclusion"></a>
 
 ## Conclusion
 
