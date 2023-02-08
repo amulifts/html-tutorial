@@ -12,14 +12,14 @@ In this tutorial, i'll start from the very beginning. You don't need to know any
 		* [HTML Elements and Attributes](#elementsandattributes)
 		* [List of HTML Elements and Attributes](#listofelementsandattributes)
 		* [Text Formatting in HTML](#textformatting)
-		* Adding Images and Media to HTML Pages
-		* Creating Links in HTML
+		* [Adding Images and Media to HTML Pages](#imagesandmedia)
+		* [Creating Links in HTML](#links)
 	* Intermediate
-		* HTML Lists and Tables
-		* HTML Forms and Input Elements
-		* Semantic Elements in HTML5
-		* HTML Styles and CSS
-		* HTML Layout and Responsive Design	 	
+		* [HTML Lists and Tables](#listsandtables)
+		* [HTML Forms and Input Elements](#formsandinputelements)
+		* [Semantic Elements in HTML5](#semantic)
+		* [HTML Styles and CSS](#stylesandcss)
+		* [HTML Layout and Responsive Design](#layoutandresponsivedesign)]	
 		* Putting it all together so far
 	* Advanced
 		* HTML APIs and Dynamic Web Content
@@ -59,6 +59,9 @@ It's important to note that while these are the major releases, HTML is constant
 ## HTML5
 
 We will be using `HTML5` in this tutorial. HTML5 is the latest version of HTML and is the version that is currently being standardized by the **World Wide Web Consortium (W3C) : an international organization committed to improving the web.** It is the version that all modern browsers support.
+
+
+# BASICS
 
 <a name="syntax"></a>
 
@@ -109,7 +112,7 @@ We have already discussed about HTML elements earlier [here](#syntax) . Now i wi
 **First Example**
 
 ```html
-<a href="https://www.google.com"> <!-- Opening tag -->
+<a href="https://www.amankhadka.com"> <!-- Opening tag -->
 	Google <!-- Content -->
 </a> <!-- Closing tag -->
 ```
@@ -191,7 +194,7 @@ In the above table, i have only listed the most **commonly used** HTML elements 
 
 The official website for HTML (HyperText Markup Language) is maintained by the World Wide Web Consortium (W3C), which is the main international standards organization for the Internet. The URL for the HTML specification is: [Click Here](https://www.w3.org/TR/html/)
 
-<a name="textformattingin"></a>
+<a name="textformatting"></a>
 
 ## Text Formatting in HTML
 
@@ -218,9 +221,268 @@ Here is an example of how to use some of the above elements to format text:
 <p>This is another paragraph of text. <u>This text is underlined</u>, and this is <sup>superscript</sup> text.</p>
 ```
 
-When the above HTML code is rendered in a browser, it will look like this:
+**When the above HTML code is rendered in a browser, it will look like this:**
 
 ![Text Formatting in HTML](https://github.com/amulifts/html-tutorial/blob/main/images/textformatting.png)
+
+
+<a name="imagesandmedia"></a>
+
+## Adding Images and Media to HTML Pages
+
+HTML provides several elements for adding images and media to web pages. The `<img>` element is used to add images to a web page. The `<audio>` and `<video>` elements are used to add audio and video to a web page.
+
+Here is an example of how to use the `<img>` element to add an image to a web page:
+
+```html
+<img src="image.jpg" alt="Image Description">
+```
+
+Here is an example of how to use the `<audio>` and `<video>` elements to add audio and video to a web page:
+
+```html
+<!-- audio -->
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- video -->
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video element.
+</video>
+```
+
+<a name="links"></a>
+
+## Creating Links in HTML
+
+HTML provides several elements for creating links in web pages. The `<a>` element is used to create links to other web pages, files, locations within the same page, email addresses, or any other URL.
+
+Here is an example of how to use the `<a>` element to create a link to another web page:
+
+```html
+<a href="https://www.amankhadka.com">Aman</a>
+```
+
+Here is an example of how to use the `<a>` element to create a link to a file:
+
+```html
+<a href="file.pdf">Download File</a>
+```
+
+Here is an example of how to use the `<a>` element to create a link to a location within the same page:
+
+```html
+<a href="#top">Go to Top</a>
+	and then add an id attribute to the element you want to link to:
+<h1 id="top">Top of Page</h1>
+```
+
+Here is an example of how to use the `<a>` element to create a link to an email address:
+
+```html
+<a href="mailto:someone@example.com">Send Email</a>
+```
+
+Here is an example of how to use the `<a>` element to create a link to a phone number:
+
+```html
+<a href="tel:+1234567890">+1 234-567-890</a>
+```
+
+# INTERMEDITE
+
+<a name="listsandtables"></a>
+
+## Lists and Tables in HTML
+
+HTML provides several elements for creating lists and tables, including:
+
+- `Lists`:
+	- `<ul>` - Unordered List, which creates a bullet-point list of items
+	- `<ol>` - Ordered List, which creates a numbered list of items
+	- `<li>` - List Item, which defines each item in a list
+
+Here is an example of unordered and ordered lists:
+
+```html
+<!-- Unordered List -->
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+<!-- Ordered List -->
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+```
+
+- `Tables`:
+	- `<table>` - Defines a table
+	- `<tr>` - Defines a table row
+	- `<th>` - Defines a table header
+	- `<td>` - Defines a table cell
+
+Here is an example of a table:
+
+```html
+<table>
+  <tr>
+	<th>First Name</th>
+	<th>Last Name</th>
+  </tr>
+  <tr>
+	<td>Aman</td>
+	<td>Khadka</td>
+  </tr>
+  <tr>
+	<td>John</td>
+	<td>Doe</td>
+  </tr>
+</table>
+```
+
+We can also use different attributes to customize the appearance of tables, such as: `border`, `cellpadding`, `cellspacing`, `width`, and `height`, `align`, `bgcolor`, `valign`, `colspan`, and `rowspan`, etc.
+
+Here is an example of a table with attributes:
+
+```html
+<table border="1" cellpadding="10" cellspacing="0" width="100%" height="100%">
+  <tr>
+	<th>First Name</th>
+	<th>Last Name</th>
+  </tr>
+  <tr>
+	<td>Aman</td>
+	<td>Khadka</td>
+  </tr>
+  <tr>
+	<td>John</td>
+	<td>Doe</td>
+  </tr>
+</table>
+```
+
+<a name="formsandinputelements"></a>
+
+## Forms and Input Elements in HTML
+
+HTML forms allow you to collect information from users, which can then be sent to a server for processing. The most basic form is created using the <form> element, along with various input elements such as text fields, checkboxes, radio buttons, and more.
+
+Here's a list of some common input elements you might use in a form:
+
+- `<input>` - Defines an input control
+- `<textarea>` - Defines a multiline input control (text area)
+- `<select>` - Defines a drop-down list
+- `<option>` - Defines an option in a drop-down list
+- `<button>` - Defines a clickable button
+- `<label>` - Defines a label for an `<input>` element
+
+Here is an example of a form with input elements:
+
+```html
+<form>
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <select id="email" name="email">
+    <option value="gmail">Gmail</option>
+    <option value="yahoo">Yahoo</option>
+    <option value="hotmail">Hotmail</option>
+  </select>
+  <button type="submit">Submit</button>
+</form>
+```
+
+When a user submits the form, the data is sent to the server for processing. To specify where the form data should be sent, you can use the `action` attribute of the `<form>` element. To specify the HTTP method to use when sending the data, you can use the `method` attribute of the `<form>` element. The `method` attribute can be set to either `GET` or `POST`.
+
+The `GET` method is the default method for sending form data, and is typically used for simple forms that don't contain sensitive information. With the `GET` method, form data is appended to the URL as query parameters. For example, if you have a form with two input fields named **name** and **email**, the form data would be sent to the server as follows:
+
+```html
+https://amankhadka.com/submit?name=Aman+Khadka&email=amankhadka%40gmail.com
+```
+
+The `POST` method is more secure than the `GET` method, as form data is not visible in the URL. Instead, the data is sent in the body of the HTTP request, where it is less susceptible to being intercepted or tampered with. The `POST` method is typically used for forms that contain sensitive information, such as login forms and forms that require a payment.
+
+To specify the method used to send form data, you can use the **method** attribute on the **<form>** element, like this:
+
+```html
+<form action="submit" method="POST">
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <select id="email" name="email">
+	<option value="gmail">Gmail</option>
+	<option value="yahoo">Yahoo</option>
+	<option value="hotmail">Hotmail</option>
+  </select>
+  <button type="submit">Submit</button>
+</form>
+```
+
+<a name="semantic"></a>
+
+## Semantic elements in HTML
+
+Semantic elements in HTML5 refer to a set of new HTML elements that have been introduced in HTML5 to provide meaning to the structure of web content. These elements are used to describe the type of content they contain, making it easier for both humans and machines to understand the structure of a web page.
+
+Here is a list of some common semantic elements in HTML5:
+
+- `<header>` - Defines a header for a document or a section
+- `<nav>` - Defines a set of navigation links
+- `<main>` - Specifies the main content of a document
+- `<article>` - Defines an independent self-contained article
+- `<section>` - Defines a section in a document
+- `<aside>` - Defines content aside from the page content
+- `<footer>` - Defines a footer for a document or a section
+- `<details>` - Defines additional details that the user can view or hide
+- `<summary>` - Defines a heading for the `<details>` element
+
+By using semantic elements, you can make your HTML code more readable and understandable. For example, if you have a navigation menu, you can use the `<nav>` element to wrap the menu, like this:
+
+```html
+<nav>
+  <ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+```
+
+<a name="stylesandcss"></a>
+
+## HTML Styles and CSS
+
+HTML styles refers to the inline styling of HTML elements. You can use the `style` attribute to add styles to HTML elements, like this:
+
+```html
+<p style="color: red; font-size: 20px;">This is a paragraph.</p>
+```
+
+We don't generally use `HTML` for styling, as it is not very efficient. Instead, we use `CSS` to style our HTML elements. CSS stands for **Cascading Style Sheets**, and it is a language used to style HTML elements. CSS is used to control the layout of multiple web pages all at once. CSS can be added to HTML documents in 3 ways:
+
+- Inline - by using the `style` attribute inside HTML elements
+- Internal - by using a `<style>` element in the `<head>` section
+- External - by using a `<link>` element to link to an external CSS file
+
+We will learn more about `CSS` later in another tutorial.
+
+<a name="layoutandresponsivedesign"></a>
+
+## HTML Layout and Responsive Design
+
+
 
 
 
