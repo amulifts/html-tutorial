@@ -1,3 +1,7 @@
+# HTML Tutorial
+
+In this tutorial, we'll start from the very beginning. You don't need to know anything about HTML or anything about code to start.
+
 ## Table of Contents
 
  * [HTML](#html)
