@@ -19,12 +19,11 @@ In this tutorial, i'll start from the very beginning. You don't need to know any
 		* [HTML Forms and Input Elements](#formsandinputelements)
 		* [Semantic Elements in HTML5](#semantic)
 		* [HTML Styles and CSS](#stylesandcss)
-		* [HTML Layout and Responsive Design](#layoutandresponsivedesign)]	
-		* Putting it all together so far
+		* [HTML Layout and Responsive Design](#layoutandresponsivedesign)
 	* Advanced
-		* HTML APIs and Dynamic Web Content
-		* Accessibility and Assistive Technologies in HTML
-		* Best Practices and Maintenance of HTML Documents
+		* [HTML APIs and Dynamic Web Content](#apisanddynamicwebcontent)
+		* [Accessibility and Assistive Technologies in HTML](#accessibility)
+		* [Best Practices and Maintenance of HTML Documents](#bestpractices)
 
 <a name="html"></a>
 
@@ -448,7 +447,7 @@ Here is a list of some common semantic elements in HTML5:
 - `<details>` - Defines additional details that the user can view or hide
 - `<summary>` - Defines a heading for the `<details>` element
 
-By using semantic elements, you can make your HTML code more readable and understandable. For example, if we have a navigation menu, we can use the `<nav>` element to wrap the menu, like this:
+By using semantic elements, we can make our HTML code more readable and understandable. For example, if we have a navigation menu, we can use the `<nav>` element to wrap the menu, like this:
 
 ```html
 <nav>
@@ -464,7 +463,7 @@ By using semantic elements, you can make your HTML code more readable and unders
 
 ## HTML Styles and CSS
 
-HTML styles refers to the inline styling of HTML elements. You can use the `style` attribute to add styles to HTML elements, like this:
+HTML styles refers to the inline styling of HTML elements. We can use the `style` attribute to add styles to HTML elements, like this:
 
 ```html
 <p style="color: red; font-size: 20px;">This is a paragraph.</p>
@@ -482,15 +481,15 @@ We will learn more about **CSS** later in another tutorial.
 
 ## HTML Layout and Responsive Design
 
-HTML layout refers to the arrangement of elements on an HTML page and how they fit together to create a visual structure. With HTML, we can use various elements such as `<div>`, `<header>`, `<footer>`, `<nav>`, and `<section>` to define different areas of a page and control the layout of your content.
+HTML layout refers to the arrangement of elements on an HTML page and how they fit together to create a visual structure. With HTML, we can use various elements such as `<div>`, `<header>`, `<footer>`, `<nav>`, and `<section>` to define different areas of a page and control the layout of our content.
 
 Responsive design is a technique used to create web pages that look good on all devices, such as desktop computers, tablets, and mobile phones. Responsive web design is achieved by using a combination of flexible layouts, flexible images, and media queries.
 
 There are several different techniques for creating responsive web pages:
 
-- **Media queries**: A media query is a CSS technique that allows us to apply different styles to your HTML elements based on the size of the screen or device. You can use media queries to create different styles for different screen sizes and orientations.
+- **Media queries**: A media query is a CSS technique that allows us to apply different styles to our HTML elements based on the size of the screen or device. We can use media queries to create different styles for different screen sizes and orientations.
 - **Flexbox and Grid**: Flexbox and Grid are CSS layout modules that allow us to create flexible and responsive layouts with ease. With these modules, we can control how elements are arranged on the page, how they adapt to different screen sizes, and how they respond to changes in the viewport.
-- **Responsive images**: With responsive images, we can ensure that images are optimized for different devices and screen sizes, by serving different versions of an image based on the size of the screen. This helps to reduce the amount of data that needs to be downloaded, which can improve the loading speed of your pages on mobile devices.
+- **Responsive images**: With responsive images, we can ensure that images are optimized for different devices and screen sizes, by serving different versions of an image based on the size of the screen. This helps to reduce the amount of data that needs to be downloaded, which can improve the loading speed of our pages on mobile devices.
 
 Make our design responsive helps to create a better user experience for our users regardless of the device they are using to access our content.
 
@@ -498,10 +497,57 @@ We will learn deeply about **HTML Layout** and **Responsive Design** in CSS tuto
 
 # Advance
 
+<a name = "apisanddynamicwebcontent"></a>
 
+## APIs and Dynamic Web Content
 
+HTML APIs and dynamic web content are advanced concepts in HTML that allow us to create dynamic and interactive web pages. With HTML APIs and dynamic web content, we can create web pages that can update and change in real-time based on user interactions and data from other sources.
 
+Some of the key concepts in HTML APIs and dynamic web content are:
 
+- **HTML APIs** - An API (Application Programming Interface) is a set of protocols and tools for building software applications. With HTML APIs, we can access data from other sources and use it in our HTML pages. For example, we can use APIs to retrieve data from a database, fetch data from a web service, or retrieve information from social media platforms.
+
+- **JavaScript** - JavaScript is a programming language that is commonly used to create dynamic and interactive web content. With JavaScript, we can manipulate HTML elements, change their properties, and add interactivity to our web pages.
+
+- **AJAX** - AJAX (Asynchronous JavaScript and XML) is a technique that allows us to create dynamic web pages that can update content without reloading the entire page. With AJAX, we can send and receive data from a server asynchronously, which means that the page can update content without interrupting the user's experience.
+
+- **WebSockets** - WebSockets is a protocol for real-time communication between a web browser and a server. With WebSockets, we can create real-time applications, such as chat apps and multiplayer games, that can update and change in real-time based on user interactions and data from other sources.
+
+These are some of the most common concepts in HTML APIs and dynamic web content. We will learn more about these concepts in other tutorials.
+
+These advanced concepts in HTML allow us to create dynamic and interactive web pages that provide a better user experience and can respond to changes in real-time. With HTML APIs, dynamic web content, and real-time communication, we can create engaging and dynamic web applications that can adapt to changing user needs and data.
+
+<a name="accessibility"></a>
+
+## Accessibility and Assistive Technologies in HTML
+
+Accessibility and assistive technologies are an important aspect of HTML development that ensure that web pages and web applications can be used by people with disabilities. Accessibility in HTML refers to the practice of designing and developing web pages that can be easily used by people with disabilities, including those with visual, auditory, motor, and cognitive impairments.
+
+Assistive technologies are tools and software that help people with disabilities use computers and the web. Some common examples of assistive technologies include screen readers, magnifiers, and alternative input devices.
+
+To ensure that web pages are accessible to people with disabilities, HTML provides several elements and attributes that can be used to provide additional information and context to assistive technologies. Some of the key elements and attributes include:
+
+- `alt` attribute - The `alt` attribute provides alternative text for images, which can be used by screen readers to describe images to visually impaired users.
+- `title` attribute - The `title` attribute provides additional information about an element, which can be used by screen readers to provide additional context to users.
+- `label` element - The `<label>` element provides a visible label for form elements, which can be used by screen readers to describe form controls to users.
+- `aria` Accessible Rich Internet Applications (ARIA) attributes - ARIA attributes provide additional information about an element, which can be used by screen readers to provide additional context to users.
+
+By incorporating these elements and attributes into our HTML pages and web applications, we can improve the accessibility of our web pages and ensure that they can be used by people with disabilities. This not only makes our web pages and applications more inclusive, but it can also help us reach a wider audience and improve the user experience for everyone who uses our web pages and applications.
+
+<a name="bestpractices"></a>
+
+## Best Practices and Maintenance of HTML Documents
+
+By following best practices and maintaining our HTML documents, we can ensure that our web pages and web applications are well-structured, easy to read, and easy to maintain. Here are some of the best practices that we should follow when creating HTML documents:
+
+- Validate HTML code: Verify that the HTML code is well-formed and complies with the latest standards.
+- Use semantic elements: Structure the HTML pages using semantic elements for improved accessibility and context.
+- Include alternative text for images: Provide a text description for images using the **alt** attribute for assistive technologies.
+- Use descriptive headings: Use descriptive headings, such as **<h1>** through **<h6>**, to structure the HTML pages.
+- Use CSS for styling: Separate the presentation from the content by using CSS for styling HTML pages.
+- Use a clear naming convention: Adopt a clear and consistent naming convention for HTML files, images, and other resources.
+- Keep HTML code organized and well-commented: Keep the HTML code organized and well-commented for improved maintainability.
+- Use a code formatter: Use a code formatter to format the HTML code for improved readability.
 
 ## Authors
 
