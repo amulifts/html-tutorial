@@ -542,8 +542,8 @@ By following best practices and maintaining our HTML documents, we can ensure th
 
 - Validate HTML code: Verify that the HTML code is well-formed and complies with the latest standards.
 - Use semantic elements: Structure the HTML pages using semantic elements for improved accessibility and context.
-- Include alternative text for images: Provide a text description for images using the **alt** attribute for assistive technologies.
-- Use descriptive headings: Use descriptive headings, such as **<h1>** through **<h6>**, to structure the HTML pages.
+- Include alternative text for images: Provide a text description for images using the `alt` attribute for assistive technologies.
+- Use descriptive headings: Use descriptive headings, such as `<h1>` through `<h6>`, to structure the HTML pages.
 - Use CSS for styling: Separate the presentation from the content by using CSS for styling HTML pages.
 - Use a clear naming convention: Adopt a clear and consistent naming convention for HTML files, images, and other resources.
 - Keep HTML code organized and well-commented: Keep the HTML code organized and well-commented for improved maintainability.
