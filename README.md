@@ -196,7 +196,7 @@ The official website for HTML (HyperText Markup Language) is maintained by the W
 
 <a name="textformatting"></a>
 
-## Text Formatting in HTML
+### Text Formatting in HTML
 
 HTML provides several elements and attributes for formatting text, including headings, paragraphs, bold text, italic text, and more.
 
@@ -228,7 +228,7 @@ Here is an example of how to use some of the above elements to format text:
 
 <a name="imagesandmedia"></a>
 
-## Adding Images and Media to HTML Pages
+### Adding Images and Media to HTML Pages
 
 HTML provides several elements for adding images and media to web pages. The `<img>` element is used to add images to a web page. The `<audio>` and `<video>` elements are used to add audio and video to a web page.
 
@@ -256,7 +256,7 @@ Here is an example of how to use the `<audio>` and `<video>` elements to add aud
 
 <a name="links"></a>
 
-## Creating Links in HTML
+### Creating Links in HTML
 
 HTML provides several elements for creating links in web pages. The `<a>` element is used to create links to other web pages, files, locations within the same page, email addresses, or any other URL.
 
@@ -296,7 +296,7 @@ Here is an example of how to use the `<a>` element to create a link to a phone n
 
 <a name="listsandtables"></a>
 
-## Lists and Tables in HTML
+### Lists and Tables in HTML
 
 HTML provides several elements for creating lists and tables, including:
 
@@ -371,7 +371,7 @@ Here is an example of a table with attributes:
 
 <a name="formsandinputelements"></a>
 
-## Forms and Input Elements in HTML
+### Forms and Input Elements in HTML
 
 HTML forms allow us to collect information from users, which can then be sent to a server for processing. The most basic form is created using the <form> element, along with various input elements such as text fields, checkboxes, radio buttons, and more.
 
@@ -432,7 +432,7 @@ To specify the method used to send form data, we can use the **method** attribut
 
 <a name="semantic"></a>
 
-## Semantic elements in HTML
+### Semantic elements in HTML
 
 Semantic elements in HTML5 refer to a set of new HTML elements that have been introduced in HTML5 to provide meaning to the structure of web content. These elements are used to describe the type of content they contain, making it easier for both humans and machines to understand the structure of a web page.
 
@@ -462,7 +462,7 @@ By using semantic elements, we can make our HTML code more readable and understa
 
 <a name="stylesandcss"></a>
 
-## HTML Styles and CSS
+### HTML Styles and CSS
 
 HTML styles refers to the inline styling of HTML elements. We can use the `style` attribute to add styles to HTML elements, like this:
 
@@ -500,7 +500,7 @@ We will learn deeply about **HTML Layout** and **Responsive Design** in CSS tuto
 
 <a name = "apisanddynamicwebcontent"></a>
 
-## APIs and Dynamic Web Content
+### APIs and Dynamic Web Content
 
 HTML APIs and dynamic web content are advanced concepts in HTML that allow us to create dynamic and interactive web pages. With HTML APIs and dynamic web content, we can create web pages that can update and change in real-time based on user interactions and data from other sources.
 
@@ -520,7 +520,7 @@ These advanced concepts in HTML allow us to create dynamic and interactive web p
 
 <a name="accessibility"></a>
 
-## Accessibility and Assistive Technologies in HTML
+### Accessibility and Assistive Technologies in HTML
 
 Accessibility and assistive technologies are an important aspect of HTML development that ensure that web pages and web applications can be used by people with disabilities. Accessibility in HTML refers to the practice of designing and developing web pages that can be easily used by people with disabilities, including those with visual, auditory, motor, and cognitive impairments.
 
@@ -537,7 +537,7 @@ By incorporating these elements and attributes into our HTML pages and web appli
 
 <a name="bestpractices"></a>
 
-## Best Practices and Maintenance of HTML Documents
+### Best Practices and Maintenance of HTML Documents
 
 By following best practices and maintaining our HTML documents, we can ensure that our web pages and web applications are well-structured, easy to read, and easy to maintain. Here are some of the best practices that we should follow when creating HTML documents:
 
@@ -558,6 +558,6 @@ To summarize, HTML is the web's backbone and is required for creating dynamic an
 
 This study guide has covered everything from the fundamentals of HTML syntax and structure to intermediate topics like forms and input elements and advanced topics like APIs and dynamic web content, as well as accessibility. You'll be well on your way to creating websites that are accessible, maintainable, and visually appealing if you understand these concepts and best practices. HTML is an important skill to have in your toolbox, whether you're a beginner or an experienced developer, and we hope this study guide has given you the foundation you need to get started.
 
-# Authors
+# Author
 
 - [@amulifts](https://www.github.com/amulifts)
