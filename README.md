@@ -6,7 +6,7 @@ A comprehensive guide to HTML, covering topics from the basics of document struc
 
  * [HTML](#html)
  	* [History](#history)
-	* BASIC
+	* Basic
 		* [Basic HTML document syntax](#syntax)
 		* [Basic HTML document structure](#structure)
 		* [HTML Elements and Attributes](#elementsandattributes)
@@ -14,13 +14,13 @@ A comprehensive guide to HTML, covering topics from the basics of document struc
 		* [Text Formatting in HTML](#textformatting)
 		* [Adding Images and Media to HTML Pages](#imagesandmedia)
 		* [Creating Links in HTML](#links)
-	* INTERMEDIATE
+	* Intermediate
 		* [HTML Lists and Tables](#listsandtables)
 		* [HTML Forms and Input Elements](#formsandinputelements)
 		* [Semantic Elements in HTML5](#semantic)
 		* [HTML Styles and CSS](#stylesandcss)
 		* [HTML Layout and Responsive Design](#layoutandresponsivedesign)
-	* ADVANCED
+	* Advanced
 		* [HTML APIs and Dynamic Web Content](#apisanddynamicwebcontent)
 		* [Accessibility and Assistive Technologies in HTML](#accessibility)
 		* [Best Practices and Maintenance of HTML Documents](#bestpractices)
@@ -496,7 +496,7 @@ Make our design responsive helps to create a better user experience for our user
 
 We will learn deeply about **HTML Layout** and **Responsive Design** in CSS tutorial.
 
-# ADVANCED
+# Advanced
 
 <a name = "apisanddynamicwebcontent"></a>
 
