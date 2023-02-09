@@ -373,7 +373,7 @@ Here is an example of a table with attributes:
 
 ### Forms and Input Elements in HTML
 
-HTML forms allow us to collect information from users, which can then be sent to a server for processing. The most basic form is created using the <form> element, along with various input elements such as text fields, checkboxes, radio buttons, and more.
+HTML forms allow us to collect information from users, which can then be sent to a server for processing. The most basic form is created using the `<form>` element, along with various input elements such as text fields, checkboxes, radio buttons, and more.
 
 Here's a list of some common input elements we might use in a form:
 
